@@ -1,0 +1,906 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+
+.navbarChild {
+    position: absolute;
+    top: 76px;
+    left: 26px;
+    border-radius: 51px;
+    background-color: #363636;
+    width: 498px;
+    height: 85px;
+}
+.about {
+    position: absolute;
+    top: 100px;
+    left: 68px;
+    line-height: 120%;
+}
+.insights {
+    position: absolute;
+    top: 100px;
+    left: 213px;
+    line-height: 120%;
+}
+.tools {
+    position: absolute;
+    top: 100px;
+    left: 398px;
+    line-height: 120%;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #363636;
+    width: 493px;
+    height: 85px;
+}
+.whatWeDo {
+    position: absolute;
+    top: 27px;
+    left: 54px;
+    line-height: 120%;
+    display: inline-block;
+    width: 188px;
+    height: 37px;
+}
+.rectangleParent {
+    position: absolute;
+    top: 73px;
+    left: 1012px;
+    width: 493px;
+    height: 85px;
+}
+.stateLayer {
+    align-self: stretch;
+    flex: 1;
+    background-color: #e9b43b;
+}
+.button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #65558f;
+    width: 195px;
+    height: 52px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactUs {
+    position: absolute;
+    top: 13px;
+    left: 36.28px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 113.4px;
+    height: 26px;
+}
+.buttonParent {
+    position: absolute;
+    top: 89px;
+    left: 1287px;
+    width: 195px;
+    height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #171717;
+}
+.rrFinvests {
+    position: absolute;
+    top: 89px;
+    left: 617px;
+    font-size: 50px;
+    line-height: 52px;
+    font-family: 'Noto Serif';
+    color: #000;
+}
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1512px;
+    height: 210px;
+    overflow: hidden;
+    font-size: 25px;
+    color: #e9b43b;
+}
+.stateLayer1 {
+    align-self: stretch;
+    flex: 1;
+    background-color: #363636;
+}
+.button1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #65558f;
+    width: 400px;
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connect {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 28px;
+}
+.buttonGroup {
+    position: absolute;
+    top: 650px;
+    left: 538px;
+    width: 400px;
+    height: 90px;
+}
+.joinUsToday {
+    position: absolute;
+    top: 500px;
+    left: 284px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 78px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 967px;
+    height: 103px;
+}
+.makeIntelligent {
+    margin: 0;
+}
+.withUs {
+    color: #363636;
+}
+.investmentsWithUs {
+    margin: 0;
+    color: #e9b43b;
+}
+.makeIntelligentInvestmentsContainer1 {
+    width: 100%;
+}
+.makeIntelligentInvestmentsContainer {
+    position: absolute;
+    top: 260px;
+    left: 36px;
+    font-size: 90px;
+    letter-spacing: 4px;
+    line-height: 120px;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 400px;
+    color: #363636;
+}
+.header {
+    position: absolute;
+    top: 198px;
+    left: 0px;
+    width: 1517px;
+    height: 1224px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 35px;
+    color: #e9b43b;
+}
+.howInvestmentsAre {
+    position: absolute;
+    top: 76px;
+    left: 336px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 918px;
+    height: 125px;
+}
+.aboutChild {
+    position: absolute;
+    top: 370px;
+    left: 87px;
+    border-radius: 59px;
+    background-color: #d9d9d9;
+    width: 841px;
+    height: 700px;
+}
+.aboutItem {
+    position: absolute;
+    top: 354px;
+    left: 986px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 624px;
+    height: 350px;
+}
+.aboutInner {
+    position: absolute;
+    top: 730px;
+    left: 986px;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    width: 624px;
+    height: 350px;
+}
+.nsfdnjdsSioofdoisdDsigso {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.loremIpsumJnfsdjnfContainer {
+    position: absolute;
+    top: 423px;
+    left: 124px;
+    font-size: 28px;
+    letter-spacing: 0.1px;
+    line-height: 60px;
+    color: #000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 768px;
+}
+.about1 {
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    background-color: #171717;
+    width: 1512px;
+    height: 1303px;
+    overflow: hidden;
+    text-align: center;
+    color: #d9d9d9;
+}
+.theFirm {
+    position: absolute;
+    top: 47px;
+    left: 625px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    font-family: Caudex;
+}
+.fjhvkbblOuhoiHiu {
+    position: absolute;
+    top: 139px;
+    left: 115px;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1293px;
+    height: 294px;
+}
+.aud {
+    position: absolute;
+    top: 679px;
+    left: 161px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.aud1 {
+    position: absolute;
+    top: 679px;
+    left: 440px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.aud2 {
+    position: absolute;
+    top: 679px;
+    left: 1002px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.aud3 {
+    position: absolute;
+    top: 679px;
+    left: 1285px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.aud4 {
+    position: absolute;
+    top: 679px;
+    left: 723px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 44px;
+    background-color: #d9d9d9;
+    width: 205px;
+    height: 200px;
+}
+.groupInner {
+    position: absolute;
+    top: 0px;
+    left: 279px;
+    border-radius: 44px;
+    background-color: #d9d9d9;
+    width: 205px;
+    height: 200px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 0px;
+    left: 558px;
+    border-radius:44px;
+    background-color: #d9d9d9;
+    width: 205px;
+    height: 200px;
+}
+.groupChild1 {
+    position: absolute;
+    top: 0px;
+    left: 837px;
+    border-radius: 44px;
+    background-color: #d9d9d9;
+    width: 205px;
+    height: 200px;
+}
+.groupChild2 {
+    position: absolute;
+    top: 0px;
+    left: 1116px;
+    border-radius: 44px;
+    background-color: #d9d9d9;
+    width: 205px;
+    height: 200px;
+}
+.div {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.div1 {
+    position: absolute;
+    top: 65px;
+    left: 332px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.div2 {
+    position: absolute;
+    top: 65px;
+    left: 622px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.div3 {
+    position: absolute;
+    top: 65px;
+    left: 901px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.div4 {
+    position: absolute;
+    top: 65px;
+    left: 1169px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 456px;
+    left: 101px;
+    width: 1321px;
+    height: 200px;
+    font-size: 48px;
+    color: #000;
+}
+.counter {
+    position: absolute;
+    top: 3700px;
+    left: 0px;
+    background-color: #171717;
+    width: 1512px;
+    height: 814px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    color: #a5a5a5;
+    font-family: Raleway;
+}
+.option1 {
+    position: absolute;
+    top: 260px;
+    left: 851px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 529px;
+    height: 106px;
+}
+.option2 {
+    position: absolute;
+    top: 397px;
+    left: 851px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 529px;
+    height: 106px;
+}
+.option3 {
+    position: absolute;
+    top: 534px;
+    left: 851px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 529px;
+    height: 106px;
+}
+.option4 {
+    position: absolute;
+    top: 671px;
+    left: 851px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 529px;
+    height: 106px;
+}
+.whatWeBuilt2Child {
+    position: absolute;
+    top: 221px;
+    left: 116px;
+    border-radius: 126px;
+    background-color: #d9d9d9;
+    width: 565px;
+    height: 873px;
+}
+.whatWeBuilt2Item {
+    position: absolute;
+    top: 267px;
+    left: 116px;
+    border-radius: 126px;
+    background-color: #a66c6c;
+    width: 565px;
+    height: 873px;
+}
+.whatWeBuilt2Inner {
+    position: absolute;
+    top: 330px;
+    left: 116px;
+    border-radius: 126px;
+    background-color: #cb5353;
+    width: 565px;
+    height: 873px;
+}
+.whatWeBuilt2Child1 {
+    position: absolute;
+    top: 397px;
+    left: 116px;
+    border-radius: 126px;
+    background-color: #6d0d0d;
+    width: 565px;
+    height: 873px;
+}
+.whatWeBuild {
+    position: absolute;
+    top: 76px;
+    left: 336px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    color: #4d4c4c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 918px;
+    height: 151px;
+}
+.whatWeBuilt2 {
+    position: absolute;
+    top: 2350px;
+    left: 0px;
+    width: 1512px;
+    height: 1408px;
+    overflow: hidden;
+    font-size: 48px;
+}
+.span {
+    font-family: Raleway;
+}
+.rakeshJayaprakashFounderContainer {
+    position: absolute;
+    top: 768px;
+    left: 1100px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 464px;
+}
+.kfdSfdpjFokfnod {
+    position: absolute;
+    top: 134px;
+    left: 847px;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 611px;
+    height: 639px;
+}
+.ceoChild {
+    position: absolute;
+    top: 102px;
+    left: 53px;
+    background-color: #d9d9d9;
+    width: 751px;
+    height: 752px;
+}
+.ceo {
+    position: absolute;
+    top: 4550px;
+    left: 0px;
+    width: 1512px;
+    height: 955px;
+    overflow: hidden;
+    font-size: 36px;
+    font-family: Raleway;
+}
+.portfolioSpotlight {
+    position: absolute;
+    top: 36px;
+    left: 516px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+}
+.kdmOdfsoOkfdsmContainer {
+    position: absolute;
+    top: 856px;
+    left: 448px;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    font-family: Raleway;
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    width: 683px;
+}
+.portfolioChild {
+    position: absolute;
+    top: 318px;
+    left: 1203px;
+    background-color: #d9d9d9;
+    width: 446px;
+    height: 391px;
+}
+.portfolioItem {
+    position: absolute;
+    top: 200px;
+    left: 372px;
+    background-color: #d9d9d9;
+    width: 815px;
+    height: 628px;
+}
+.portfolioInner {
+    position: absolute;
+    top: 318px;
+    left: -73px;
+    background-color: #d9d9d9;
+    width: 429px;
+    height: 391px;
+}
+.portfolio {
+    position: absolute;
+    top: 5500px;
+    left: 0px;
+    background-color: #171717;
+    width: 1512px;
+    height: 956px;
+    overflow: hidden;
+    text-align: center;
+    color: #a5a5a5;
+}
+.newsChild {
+    position: absolute;
+    top: 211px;
+    left: 117px;
+    background-color: #d9d9d9;
+    width: 325px;
+    height: 306px;
+}
+.newsItem {
+    position: absolute;
+    top: 211px;
+    left: 587px;
+    background-color: #d9d9d9;
+    width: 325px;
+    height: 306px;
+}
+.newsInner {
+    position: absolute;
+    top: 211px;
+    left: 1057px;
+    background-color: #d9d9d9;
+    width: 325px;
+    height: 306px;
+}
+.news1FidofdmOf {
+    position: absolute;
+    top: 579px;
+    left: 117px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 338px;
+    height: 82px;
+}
+.news1FidofdmOf1 {
+    position: absolute;
+    top: 579px;
+    left: 587px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 338px;
+    height: 82px;
+}
+.news1FidofdmOf2 {
+    position: absolute;
+    top: 579px;
+    left: 1057px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 338px;
+    height: 82px;
+}
+.news1 {
+    position: absolute;
+    top: 75px;
+    left: 661px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    font-family: Caudex;
+}
+.frameDiv {
+    position: absolute;
+    top: 854px;
+    left: 0px;
+    width: 1512px;
+    height: 1015px;
+    overflow: hidden;
+}
+.news {
+    position: absolute;
+    top: 6450px;
+    left: 0px;
+    width: 1512px;
+    height: 743px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 36px;
+    font-family: Raleway;
+}
+.stayUpTo {
+    position: absolute;
+    top: 36px;
+    left: 48px;
+    font-size: 64px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    font-family: Caudex;
+    color: #d9d9d9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 590px;
+    height: 163px;
+}
+.getRegularInvestment {
+    position: absolute;
+    top: 200px;
+    left: 71px;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    width: 594px;
+    height: 170px;
+}
+.footerChild {
+    position: absolute;
+    top: 387px;
+    left: 71px;
+    background-color: #d9d9d9;
+    width: 424px;
+    height: 64px;
+}
+.footerItem {
+    position: absolute;
+    top: 387px;
+    left: 502px;
+    background-color: #d9d9d9;
+    width: 138px;
+    height: 64px;
+}
+.footerInner {
+    position: absolute;
+    top: 125px;
+    left: 756px;
+    border-radius: 66px;
+    width: 690px;
+    height: 326px;
+}
+.scrappedNewsFrom {
+    position: absolute;
+    top: 247px;
+    left: 847px;
+    font-size: 32px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    width: 599px;
+    height: 85px;
+}
+.builtWithRr {
+    position: absolute;
+    top: 531px;
+    left: 71px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    width: 265px;
+}
+.chennaiPhaseContainer {
+    position: absolute;
+    top: 531px;
+    left: 503px;
+    letter-spacing: 0.1px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 387px;
+}
+.connectUsThorugh {
+    position: absolute;
+    top: 531px;
+    left: 1169px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: uppercase;
+}
+.instagram {
+    position: absolute;
+    top: 600px;
+    left: 1323px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.linkedin {
+    position: absolute;
+    top: 665px;
+    left: 1341px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.twitter {
+    position: absolute;
+    top: 729px;
+    left: 1357px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.email {
+    position: absolute;
+    top: 789px;
+    left: 1372px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.footer {
+    position: absolute;
+    top: 7200px;
+    left: 0px;
+    background-color: #171717;
+    width: 1512px;
+    height: 956px;
+    overflow: hidden;
+    font-size: 24px;
+    color: #fff;
+    font-family: Roboto;
+}
+.rrFinvests1 {
+    position: absolute;
+    top: 13px;
+    left: 41px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.legalT {
+    position: absolute;
+    top: 23px;
+    left: 1093px;
+    letter-spacing: 0.1px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+.copyright {
+    position: absolute;
+    top: 8200px;
+    left: 0px;
+    width: 1512px;
+    height: 82px;
+    overflow: hidden;
+    font-size: 32px;
+    font-family: Roboto;
+}
+.desktop2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 8300px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 64px;
+    color: #000;
+    font-family: Caudex;
+}
+
