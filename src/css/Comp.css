@@ -1,0 +1,28 @@
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cinema-world-container {
+    text-align: center;
+  }
+ 
+  .video-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+  .video-column {
+    position: relative;
+    top:200px;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+  }
+ 
+  .video-player {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    transition: transform cubic-bezier(0.86, 0, 0.07, 1) ease;
+  }
